@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
         hiddenSeoTexts.forEach((hiddenSeoText) => {
             const seoText = hiddenSeoText.getAttribute('data-inner')
             if (seoText) {
-                const worker = new Worker('./webWorkerForSeoText.js')
+                const worker = new Worker('./assets/webWorkerForSeoText.js')
                 worker.postMessage({'text': seoText})
                 worker.onmessage = (e) => {
                     hiddenSeoText.innerText = e.data
