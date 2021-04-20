@@ -1,4 +1,4 @@
-Link to check: https://dmitrybondar93.github.io/webworker-hidden-text/
+Link to check: https://mityabondar.github.io/webworker-hidden-text/
 
 # Script that Web Worker uses to hide text from Google Search Bot.
 
