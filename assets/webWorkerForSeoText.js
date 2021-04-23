@@ -1,4 +1,5 @@
 self.addEventListener('message', function(e) {
-    const bannerText = e.data.text
-    setTimeout(() => self.postMessage(bannerText), 1000)
+    const inputTexts = e.data.text
+    const outputTexts = inputTexts.map(item => atob(item))
+    setTimeout(() => self.postMessage(outputTexts), 500)
 })

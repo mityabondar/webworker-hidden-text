@@ -5,7 +5,7 @@ Link to check: https://mityabondar.github.io/webworker-hidden-text/
 Attention! This is a hack!
 Google Search Bot at the time has not yet learned how to read information from the Web Worker.
 So, to satisfy the SEO guys, try inserting text into the block attributes by my instruction.
-After that, the text will be sent to the Web Worker and after 1 second, it will insert the text inside the block.
+After that, the text will be sent to the Web Worker and after 0.5 second, it will insert the text inside the block.
 Google Search Bot will skip the execution of our script and the text will not be included in the search results!
 
 # Instruction
