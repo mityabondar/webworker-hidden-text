@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
     // Create array of SEO texts
     let seoTexts = Array()
     hiddenSeoTexts.forEach((hiddenSeoText) => {
-        const seoText = hiddenSeoText.getAttribute('data-banner')
+        const seoText = hiddenSeoText.getAttribute('data-inner')
         if (seoText) seoTexts.push(seoText)
     })
 
